@@ -1,0 +1,22 @@
+{
+    "identifier": "glitter-board_menu_sort",
+    "vendor": "Glitter.kr",
+    "name": {
+        "ko": "Basic Menu Reverse 게시판 정렬",
+        "en": "Basic Menu Reverse Board Ordering"
+    },
+    "version": "1.0.0",
+    "license": "MIT",
+    "description": {
+        "ko": "sirsoft-board 공식 메뉴 결과 훅으로 게시판을 생성일 최신순 정렬합니다.",
+        "en": "Sorts board menu results by creation date through the official sirsoft-board filter."
+    },
+    "g7_version": ">=7.1.1",
+    "hidden": false,
+    "dependencies": {
+        "modules": {
+            "sirsoft-board": ">=1.2.1"
+        },
+        "plugins": {}
+    }
+}

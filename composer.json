@@ -1,0 +1,14 @@
+{
+    "name": "plugins/glitter-board_menu_sort",
+    "description": "Newest-first board menu filter for Gnuboard7",
+    "type": "library",
+    "version": "1.0.0",
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plugins\\Glitter\\BoardMenuSort\\": ["src/", "./"]
+        }
+    }
+}
